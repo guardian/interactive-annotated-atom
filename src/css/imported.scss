@@ -1,0 +1,80 @@
+body, .article__body, .tonal--tone-analysis {
+        background: #f6f6f6 !important; 
+        }
+
+.content__main p, .content__main-column--interactive p, .article__body p {    
+    font-size: 16px;    
+    line-height: 24px;    
+    margin-bottom: 20px; }
+    
+.content__main > p, .content__main h2, .content__main-column--interactive > p, .content__main-column--interactive h2, .article__body > p, .article__body h2 {  
+      max-width: 640px; }
+
+@media (min-width: 1140px) 
+    {      .content__main > p, .content__main h2, .content__main-column--interactive > p, .content__main-column--interactive h2, .article__body > p, .article__body h2 
+        {        margin-left: 160px;
+                margin-right: 0; }
+    }    
+            
+            
+@media (min-width: 1300px) 
+    {      .content__main > p, .content__main h2, .content__main-column--interactive > p, .content__main-column--interactive h2, .article__body > p, .article__body h2 
+        {        
+            margin-left: 240px;        
+            margin-right: 0; }
+    }    
+    
+.content__main blockquote, .content__main-column--interactive blockquote, .article__body blockquote 
+    {   max-width: 640px;
+        margin: 40px 0;    
+        position: relative;    
+        background: #fff;
+        padding: 20px;
+        font-style: normal;    
+        box-sizing: border-box;    
+        -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.05);    
+        -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.05);    
+        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.05); }    
+        
+
+@media (min-width: 1140px) 
+    {      .content__main blockquote, .content__main-column--interactive blockquote, .article__body blockquote {        
+        padding: 40px 60px;        
+        max-width: 640px;        
+        margin-left: 120px; 
+        } 
+    }    
+        
+@media (min-width: 1300px) {
+                  .content__main blockquote, .content__main-column--interactive blockquote, .article__body blockquote {
+                              max-width: 860px;        
+                              margin-left: 180px; 
+                              } 
+                              }    
+                              
+
+.content__main blockquote p:last-child, .content__main-column--interactive blockquote p:last-child, .article__body blockquote p:last-child {      
+    margin-bottom: 0; }
+    
+.content__main blockquote p, .content__main-column--interactive blockquote p, .article__body blockquote p {      
+    font-family: Courier, Arial, "Guardian Text Sans Web";      font-size: 18px;      line-height: 28px; 
+    }    
+    
+.content__main blockquote em, .content__main-column--interactive blockquote em, .article__body blockquote em {      
+    font-style: normal;      
+    background: rgba(75, 198, 223, 0.5);      
+    box-shadow: 0px 4px 0px rgba(75, 198, 223, 0.5), 0px -5px 0px rgba(75, 198, 223, 0.5); 
+    }    
+    
+.content__main blockquote:before, .content__main blockquote:after, .content__main-column--interactive blockquote:before, .content__main-column--interactive blockquote:after, .article__body blockquote:before, .article__body blockquote:after {      
+    background: rgba(0, 0, 0, 0.05);      
+    height: 100%;      
+    position: absolute;      
+    content: " "; 
+    }    
+    
+    
+.content__main blockquote:after, .content__main-column--interactive blockquote:after, .article__body blockquote:after {
+          right: 0;
+          top: 0; 
+          } 
