@@ -16,6 +16,11 @@ body, .article__body, .tonal--tone-analysis {
         background: #f6f6f6 !important; 
         }
 
+figure.element.element--supporting {
+    max-width: 210px;
+    background-color: inherit;
+    }
+
 @media (min-width: 1140px) 
     {figure.element.element--supporting {
     margin-left: 160px;
@@ -53,7 +58,8 @@ body, .article__body, .tonal--tone-analysis {
     
 .content__main blockquote, .content__main-column--interactive blockquote, .article__body blockquote 
     {   max-width: 640px;
-        margin: 40px 0;    
+        margin: 40px 0;
+        clear: both;    
         position: relative;    
         background: #fff;
         padding: 20px;
